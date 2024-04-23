@@ -384,6 +384,16 @@ hr{
     align-items: center;
   }
 
+  .footer-container > #facebook{
+    background-color:yellow; color: black;
+  }
+  .footer-container > #youtube{
+    background-color: red;
+  }
+  .footer-container > #twitter{
+    background-color: steelblue; color: white;
+  }
+
   .footer-container > a{
     padding: 5px 8px;
     align-items: center;
