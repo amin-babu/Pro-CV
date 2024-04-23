@@ -1,0 +1,216 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  background-color: #86CACA;
+}
+
+.container{
+  max-width:1000px;
+  background-color: #E4F9F5;
+  color: #024346;
+  margin: 0 auto;
+  padding: 20px 40px;
+  
+}
+
+h1,h2,h3,h4,h5,h6,p,a{
+  color: #024346;
+}
+
+img{
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #024346;
+  float: left;
+  cursor: pointer;
+}
+
+.header-bio{
+  float: left;
+  padding: 20px;
+}
+
+.header-bio > h1{
+  cursor: pointer;
+  transition: .5s;
+}
+
+.header-bio > h1:hover{
+  color: brown;
+}
+
+.header-bio > h3{
+  cursor: pointer;
+  transition: .5s;
+}
+
+.header-bio > h3:hover{
+  color: brown;
+}
+
+.header-contact{
+  float: right;
+  padding: 20px 0;
+  text-align: right;
+}
+
+.header-contact > a{
+  text-decoration: none;
+  font-weight: bolder;
+  display: block;
+}
+
+#hr{
+  width: 100%;
+  color: #024346;
+  border: 2px solid #024346;
+  border-bottom: none;
+  margin: 20px 0;
+}
+
+hr{
+  width: 100%;
+  color: #024346;
+  border: 1px solid #024346;
+  border-bottom: none;
+  margin: 20px 0;
+}
+
+.clear-div{
+  clear: both;
+}
+
+/* Main Section */
+
+.personer-det >h2{
+  float: left;
+  width: 34%;
+}
+
+.personel-info{
+  float: right;
+  width: 66%;
+}
+
+.personel-info > li{
+  list-style-type: none;
+}
+
+/* Work Experience Section */
+
+.work-experience > h2{
+  float: left;
+  width: 34%;
+}
+
+.experience-info{
+  float: right;
+  width: 66%;
+  margin-bottom: 30px;
+}
+
+.experience-info h3{
+  margin-bottom: 5px;
+}
+
+.experience-info h5{
+  margin-bottom: 1px;
+}
+
+.experience-info p{
+  text-align: justify;
+}
+
+/* Education Section */
+
+.education-section > h2{
+  float: left;
+  width: 34%;
+}
+
+.edu-info{
+  float: right;
+  width: 33%;
+  font-size: 16px;
+}
+
+.edu-info > h4{
+  margin-bottom: 8px;
+}
+
+.edu-info > h6, p{
+  margin-bottom: 4px;
+}
+
+.edu-info > a{
+  color: darkmagenta;
+}
+
+/* award sections */
+
+.award-sec > h2{
+  float: left;
+  width: 34%;
+}
+
+.award-info{
+  float: right;
+  width: 66%;
+}
+
+/* reference section */
+
+.reference-sections{
+  box-sizing: border-box;
+}
+
+.reference-sections > h2{
+  float: left;
+  width: 34%;
+}
+
+.reference-info{
+  float: right;
+  width: 33%;
+  font-size: 16px;
+}
+
+.reference-info > h5{
+  margin-bottom: 5px;
+}
+
+.reference-info > p{
+  font-size: 15px;
+  font-family: sans-serif;
+}
+/* footer-container */
+
+.footer-container{
+  box-sizing: border-box;
+  background-color: #2EA0A0;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer-container > a{
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  text-align: center;
+}
+
+.footer-container > p{
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.footer-container > p:hover{
+  color:beige;
+}
