@@ -216,10 +216,17 @@ hr{
   color:beige;
 }
 
-/* Responsiveness */
+/* -------------------------------------------------------------------------------
+-----------------------------------Responsiveness---------------------------------- 
+----------------------------------------------------------------------------------*/
 
 @media screen and (max-width:600px) {
   /* header starts */
+
+  .container{
+    padding: 5px 10px;
+  }
+
   header{
     display: flex;
     flex-direction: column;
@@ -396,6 +403,5 @@ hr{
     margin-top: 15px;
   }
 
-  
   /* footer section ends */
 }
