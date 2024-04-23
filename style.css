@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body{
@@ -214,4 +214,188 @@ hr{
 
 .footer-container > p:hover{
   color:beige;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width:600px) {
+  /* header starts */
+  header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .header-bio{
+    margin-bottom: 0;
+  }
+
+  .header-contact{
+    margin-top: 0;
+    text-align: center;
+    padding: 0;
+  }
+
+  /* header ends */
+
+  /* personel information starts */
+
+  
+  .personer-det{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .personer-det > h2{
+    width: 100%;
+    margin-bottom: 10px;
+    
+  }
+
+  .personel-info{
+    width: 100%;
+    
+  }
+  /* personel information Ends */
+
+  /* Work experience starts */
+  .work-experience{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work-experience > h2{
+    width: 100%;
+    margin-bottom: 18px;
+  }  
+
+  .experience-info > h3{
+    margin-bottom: 2px;
+  }
+
+  .experience-info > h5{
+    margin-bottom: 8px;
+  }
+
+  .experience-info{
+    width: 100%;
+  }
+
+  /* Work experience ends */
+
+
+  /* education-section starts */
+  .education-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .education-section > h2{
+    margin-bottom: 15px;
+  }
+
+  .edu-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .edu-info > h4{
+    margin-bottom: 4px;
+  }
+  .edu-info > h6{
+    font-size: 13px;
+  }
+  .edu-info > p{
+    margin-bottom: 2px;
+  }
+  .edu-info > a{
+    font-size: 15px;
+  }
+  /* education-section ends */
+
+  /* award section starts  */
+  .award-sec{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .award-sec > h2{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .award-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .award-info > li{
+    margin-bottom: 3px;
+    list-style:square;
+  }
+  /* award section ends  */
+  
+  /* reference section starts */
+  .reference-sections{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reference-sections > h2{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .reference-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  /* reference section starts */
+  
+  /* footer section starts */
+  .footer-container{
+    width: 100%;
+    padding: 15px;
+    background-color: #2EA0A0;
+    height: auto;
+    box-sizing: border-box;
+    align-items: center;
+  }
+
+  .footer-container > a{
+    padding: 5px 8px;
+    align-items: center;
+    background-color: blueviolet;
+    width: 33%;
+    margin-bottom: 50px;
+    margin: 4px;
+    border-radius: 5px;
+  }
+
+  
+  .footer-container > p{
+    background-color: black;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  
+  /* footer section ends */
 }
